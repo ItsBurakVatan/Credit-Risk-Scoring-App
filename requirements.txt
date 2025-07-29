@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+matplotlib
+seaborn
+streamlit
+shap
+scikit-learn
+psycopg2-binary
