@@ -7,7 +7,7 @@ DB_SETTINGS = {
     "port": "5432",
     "database": "banka_kredi_risk",
     "user": "postgres",
-    "password": "241308"
+    "password": "*****"
 }
 
 TABLE_NAME = "musteriler"
