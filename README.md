@@ -1,16 +1,17 @@
-# Credit Scoring Application for Bank Risk Analysis
+# Credit Risk Scoring App
 
-This project is a **credit scoring and customer risk analysis application** developed specifically for the **Assistant Inspector Interview at Ziraat Bank**. It uses a PostgreSQL database, machine learning with logistic regression, and an interactive Streamlit dashboard to analyze customer risk and credit scoring.
+Credit scoring and customer risk analysis application developed for financial risk assessment.  
+Built with Streamlit, PostgreSQL, and machine learning.
 
-## 🔍 Key Features
+## Key Features
 
-- **Interactive Streamlit Dashboard**: For exploring data, training models, and predicting customer risk.
-- **Database Integration**: Reads customer data directly from a PostgreSQL database.
-- **Machine Learning**: Trains a logistic regression model to predict credit default.
-- **Explainability**: SHAP values used to visualize model explanations.
-- **Scoring System**: Converts probability into a custom score (0–160) and interprets risk levels.
+- **Interactive Dashboard**: Explore data, train models, and predict customer risk.  
+- **Database Integration**: Connects to a PostgreSQL database.  
+- **Machine Learning**: Logistic regression for credit default prediction.  
+- **Explainability**: SHAP values for model interpretation.  
+- **Scoring System**: Converts probability into a custom score (0–160) with risk levels.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -33,17 +34,16 @@ This project is a **credit scoring and customer risk analysis application** deve
 
 ````
 
-## 💡 Usage
+## Usage
 
-1. Make sure you have PostgreSQL installed and running.
-2. Update the `config/config.py` file with your DB credentials.
-3. Run the app:
-
+1. Ensure PostgreSQL is installed and running.  
+2. Update `config/config.py` with your DB credentials.  
+3. Run the app:  
 ```bash
 streamlit run app.py
 ````
 
-## 📊 Risk Score Interpretation
+## Risk Score Interpretation
 
 | Score Range | Risk Level        |
 | ----------- | ----------------- |
@@ -53,15 +53,15 @@ streamlit run app.py
 | 80–111      | 🟠 Low            |
 | 0–79        | 🔴 Very High Risk |
 
-## 🏦 Project Motivation
+## Project Motivation
 
-The project was designed to simulate a real-world banking scenario where a financial institution needs to evaluate the likelihood of a customer defaulting on a credit payment. It demonstrates:
+Simulates a real-world financial scenario to evaluate customer credit default risk.
+Highlights:
 
-* Database connectivity and management
-* Applied machine learning for classification
-* Risk interpretation through both score and probability
+* Database management and connectivity
+* Machine learning for classification
+* Risk interpretation via scores and probabilities
 * Visual and explainable results for decision makers
 
----
-
-**Developed for Ziraat Bank Assistant Inspector Interview.**
+Bunu yapmamı ister misin?
+```
