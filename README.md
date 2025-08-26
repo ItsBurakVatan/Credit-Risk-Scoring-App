@@ -62,6 +62,3 @@ Highlights:
 * Machine learning for classification
 * Risk interpretation via scores and probabilities
 * Visual and explainable results for decision makers
-
-Bunu yapmamı ister misin?
-```
